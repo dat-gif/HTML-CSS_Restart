@@ -6,6 +6,8 @@
 
 * {
   box-sizing: inherit;
+  padding: 0;
+  margin: 0;
 }
 
 html {
@@ -45,10 +47,13 @@ p {
 .header__navbar-list {
   list-style-type: none;
   padding-left: 0;
+  margin-top: 10px;
 }
 .header__navbar-item {
   margin: 0 8px;
   position: relative;
+  display: inline-flex;
+  align-items: baseline;
 }
 
 .header__navbar-item,
@@ -59,6 +64,18 @@ p {
   text-decoration: none;
   font-weight: 300;
   text-transform: capitalize;
+}
+.header__navbar-item,
+.header__navbar-item-link,
+.header__navbar-icon {
+  display: inline-flex;
+  align-items: end;
+}
+.header__navbar-icon-link:hover,
+.header__navbar-item:hover,
+.header__navbar-item-link:hover {
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
 }
 .header__navbar-item-link--strong {
   font-weight: 470;
@@ -73,4 +90,15 @@ p {
   right: -10px;
   top: 50%;
   transform: translateY(-50%);
+}
+.header__navbar-icon-link {
+  color: var(---white-color);
+}
+.header__navbar-icon {
+  font-size: 1.8rem;
+  margin: 0 4px;
+}
+.header__navbar-label--disable-effect {
+  cursor: text;
+  color: var(---white-color);
 }
