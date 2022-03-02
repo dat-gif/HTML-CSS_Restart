@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" type="text/css" href="assets/css/base.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.0.0-web/css/all.min.css" />
   <script src="https://kit.fontawesome.com/3f9d2ccaaa.js" crossorigin="anonymous"></script>
@@ -20,8 +21,20 @@
       <div class="grid">
         <div class="header__navbar">
           <ul class="header__navbar-list">
-            <li class="header__navbar-item header__navbar-item--separator">
+            <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separator">
               Home
+              <!--Heder QR-->  
+              <div class="header__qr">
+                <img src="./assets/img/QACode.png" alt="QA Code" class="header__qr-img">
+                <div class="header__qr-apps">
+                  <a href="" class="header_qr-apps-link">
+                    <img src="assets/img/appStore.png" alt="App Store" class="header__qr-app-download-img">
+                  </a>
+                  <a href="" class="header_qr-apps-link">
+                    <img src="assets/img/ggPlay.png" alt="Play Store" class="header__qr-app-download-img">
+                  </a>
+                </div>
+              </div>
             </li>
             <li class="header__navbar-item">
               <span class="header__navbar-label--disable-effect">Kết nối</span>
