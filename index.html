@@ -21,7 +21,7 @@
       <div class="grid">
         <div class="header__navbar">
           <ul class="header__navbar-list">
-            <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separator">
+            <li class="header__navbar-item header__navbar-item--has-hover header__navbar-item--separator">
               Home
               <!--Heder QR-->
               <div class="header__qr">
@@ -44,7 +44,8 @@
           </ul>
 
           <ul class="header__navbar-list">
-            <li class="header__navbar-item">
+            <!-- Header notify -->
+            <li class="header__navbar-item header__navbar-item--has-hover">
               <a href="" class="header__navbar-item-link">
                 <i class="header__navbar-icon fa-solid fa-bell"></i>
                 Thông báo</a>
@@ -53,18 +54,45 @@
                   <h3>Thông báo mới nhận</h3>
                 </header>
                 <ul class="header__notify-list">
+                  <li class="header__notify-item header__notify-item--viewed ">
+                    <a href="" class="header__notify-link">
+                      <img src="assets/img/QACode.png" alt="" class="header__notify-img">
+                      <div class="header__notify-info">
+                        <p class="header__notify-name">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <span class="header__notify-description">Lorem, ipsum dolor sit amet consectetur adipisicing
+                          elit.</span>
+                      </div>
+                    </a>
+                  </li>
                   <li class="header__notify-item">
                     <a href="" class="header__notify-link">
                       <img src="assets/img/QACode.png" alt="" class="header__notify-img">
                       <div class="header__notify-info">
-                        <span class="header__notify-name">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </span>
+                        <p class="header__notify-name">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <span class="header__notify-description">Lorem, ipsum dolor sit amet consectetur adipisicing
+                          elit.</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="header__notify-item">
+                    <a href="" class="header__notify-link">
+                      <img src="assets/img/QACode.png" alt="" class="header__notify-img">
+                      <div class="header__notify-info">
+                        <p class="header__notify-name">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
                         <span class="header__notify-description">Lorem, ipsum dolor sit amet consectetur adipisicing
                           elit.</span>
                       </div>
                     </a>
                   </li>
                 </ul>
+                <footer class="header__notify-footer">
+                  <a href="" class="header__notify-footer-btn">
+                    Xem tất cả
+                  </a>
+                </footer>
               </div>
             </li>
             <li class="header__navbar-item">
