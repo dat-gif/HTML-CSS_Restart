@@ -118,10 +118,11 @@
   <div class="modal">
     <div class="modal__overlay"></div>
     <div class="modal__body">
-      <div class="modal__inner">
 
-        <!-- Authen form -->
-        <div class="auth-form">
+
+      <!-- Authen form -->
+      <div class="auth-form">
+        <div class="auth-form__content">
           <div class="auth-form__header">
             <h3 class="auth-form__heading">
               Đăng ký
@@ -142,25 +143,32 @@
           </div>
 
           <div class="auth-form__aside">
-            <p class="auth-form__policy-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate nobis
-              natus
-              <a href="" class="auth-form__policy-link">Dieu khoan</a>&
-              <a href="" class="auth-form__policy-link">Dich vu</a>
+            <p class="auth-form__policy-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate
+              natus,sit amet consectetur adipisicing elit.
+              <a href="" class="auth-form__text-link">Dieu khoan</a>
+              &
+              <a href="" class="auth-form__text-link">Dich vu</a>
             </p>
           </div>
 
           <div class="auth-form__control">
-            <button class="btn">Trở lại</button>
-            <button class="btn btn--primary">Đăng ký</button>
-          </div>
-
-          <div class="auth-form__social">
-            <a href="" class="btn btn--with-icon"><i class="fa-brands fa-facebook-square"></i> kết nối với facebook</a>
-            <a href="" class="btn btn--with-icon"><i class="fa-brands fa-google"></i> kết nối với google</a>
+            <button class="btn btn--default-hover">Trở lại</button>
+            <button class="btn btn--primary btn--default-hover">Đăng ký</button>
           </div>
         </div>
 
+        <div class="auth-form__social">
+          <a href="" class="btn btn--size-small btn--with-icon auth-form__social--facebook">
+            <i class="fa-brands fa-facebook-square auth-form__social-icon"></i>
+            Kết nối với Facebook
+          </a>
+          <a href="" class="btn btn--size-small btn--with-icon auth-form__social--google">
+            <i class="fa-brands fa-google auth-form__social-icon "></i>
+            Kết nối với Google
+          </a>
+        </div>
       </div>
+
     </div>
   </div>
 </body>

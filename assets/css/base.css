@@ -2,6 +2,7 @@
   ---white-color: #fff;
   ---black-color: #000;
   ---text-color: #333;
+  ---border-color: #dbdbdb;
   /* primary color #f53e2d */
   ---primary-color: 245, 62, 45;
   --color: 240, 240, 240;
@@ -47,4 +48,36 @@ p {
   to {
     opacity: 1;
   }
+}
+
+/* Button */
+.btn {
+  min-width: 142px;
+  height: 36px;
+  border: none;
+  text-decoration: none;
+  border-radius: 2px;
+  font-size: 1.5rem;
+  padding: 0;
+  cursor: pointer;
+  background-color: var(---white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn.btn--default-hover:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.btn.btn--primary {
+  background-color: rgb(var(---primary-color));
+  color: var(---white-color);
+}
+.btn.btn--disabled {
+  cursor: not-allowed;
+  filter: brightness(80%);
+}
+.btn.btn--size-small {
+  height: 30px;
+  font-size: 12px;
+
 }
