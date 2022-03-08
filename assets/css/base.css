@@ -5,7 +5,10 @@
   ---border-color: #dbdbdb;
   /* primary color #f53e2d */
   ---primary-color: 245, 62, 45;
-  --color: 240, 240, 240;
+  ---color: 240, 240, 240;
+  ---navbar-height: 34px;
+  ---header-height: 120px;
+  --header-with-search: calc(var(---header-height) - var(---navbar-height));
 }
 
 * {
@@ -79,5 +82,4 @@ p {
 .btn.btn--size-small {
   height: 30px;
   font-size: 12px;
-
 }
